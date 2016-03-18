@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="spark-svn2">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/src/out/artifacts/spark_svn_jar/spark-svn.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

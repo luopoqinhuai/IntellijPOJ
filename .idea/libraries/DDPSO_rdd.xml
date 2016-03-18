@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="DDPSO_rdd">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/out/artifacts/DDPSO_rdd/DDPSO_rdd.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/artifacts/DDPSO_rdd/IntellijPOJ.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

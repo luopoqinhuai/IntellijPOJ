@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/IntellijPOJ.iml" filepath="$PROJECT_DIR$/IntellijPOJ.iml" />
+      <module fileurl="file://$PROJECT_DIR$/omegaDPSO/omegaDPSO.iml" filepath="$PROJECT_DIR$/omegaDPSO/omegaDPSO.iml" />
+      <module fileurl="file://$PROJECT_DIR$/onlyDPSO/onlyDPSO.iml" filepath="$PROJECT_DIR$/onlyDPSO/onlyDPSO.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tianchi_reno/tianchi_reno.iml" filepath="$PROJECT_DIR$/tianchi_reno/tianchi_reno.iml" />
+    </modules>
+  </component>
+</project>

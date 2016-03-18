@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="getonePerson">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/out/artifacts/getonePerson/spark-svn.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/artifacts/getonePerson/getonePerson.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

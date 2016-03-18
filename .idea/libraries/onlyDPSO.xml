@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="onlyDPSO">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/out/artifacts/onlyDPSO/onlyDPSO.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

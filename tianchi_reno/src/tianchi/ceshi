@@ -1,0 +1,68 @@
+val Trainall2=MakeData(8,18,mmmp_allBd,mmmp_all_busBd)
+
+val modelTrain_all2=parseTrainData(Trainall2)
+
+val model_all2 = GradientBoostedTrees.train(modelTrain_all2, boostingStrategy)
+
+val Testall=parseTestData(MakeData(16,16,mmmp_allBd,mmmp_all_busBd))              ///
+
+val finala = Testall.map {
+    case (mkey,feature,label,lb)=>
+      val prediction = model_all2.predict(lb.features)
+      (mkey,prediction,label)
+  }.filter(x=>math.abs(x._3-x._2)>100).collect.map(println(_))
+
+
+
+val Testcommon=parseTestData(MakeData(16,16,mmmp_commonmanBd,mmmp_commonman_busBd))
+
+val finala = Testcommon.map {
+    case (mkey,feature,label,lb)=>
+      val prediction = commonmodel.predict(lb.features)
+      mkey._2+" "+" "+mkey._3+" "+mkey._4+" "+prediction+" "+label
+  }.collect.map(println(_))
+
+
+
+
+
+val Testall=parseTestData(MakeData(19,19,mmmp_allBd,mmmp_all_busBd))
+
+val finala = Testall.map {
+    case (mkey,feature,label,lb)=>
+      val prediction = model_all2.predict(lb.features)
+      mkey._2+" "+" "+mkey._3+" "+mkey._4+" "+prediction+" "+label
+  }.collect.map(println(_))
+
+
+val L_and_P = Testall.map {
+    case (mkey,feature,label,lb)=>
+      val prediction = model_all.predict(lb.features)
+      (mkey,label,prediction)
+  }
+
+
+judgeOne(Testold,model_old)
+
+judgeFromOneWeek(16,mmmp_oldmanBd,mmmp_oldman_busBd,model_old)
+
+
+
+
+
+、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、
+
+
+
+
+val numstu=stu.count
+
+val numold=oldman.count
+
+val numcommon=commonman.count
+
+
+val numother=otherman.count
+
+val numall=allman.count
+numstu+numold+numcommon+numother

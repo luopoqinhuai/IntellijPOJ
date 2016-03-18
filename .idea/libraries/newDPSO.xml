@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="newDPSO">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/out/artifacts/newDPSO/newDPSO.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
